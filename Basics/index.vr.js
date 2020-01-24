@@ -1,4 +1,3 @@
-
 import React, { Component } from 'react';
 import {
   AppRegistry,
@@ -7,7 +6,7 @@ import {
   View,
 } from 'react-vr';
 
-export default class Basics extends Component {
+
   render() {
     return (
       <View>
