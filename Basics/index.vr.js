@@ -1,55 +1,31 @@
 import React, { Component } from 'react';
-import { AppRegistry, asset, Pano, View, Text, StyleSheet } from 'react-vr';
-
-class Row extends Component {
-  render() {
-    return (
-      <View style={[{backgroundColor: this.props.color}, styles.row]}>
-        <Text style={styles.text}>{this.props.color}</Text>
-      </View>
-    )
-  }
-}
+import { AppRegistry, asset, Pano, View, Text, Box } from 'react-vr';
 
 export default class Basics extends Component {
-  constructor (){
-    super();
-    this.state = {
-      flexDirectionIsRow: true
-    }
-    setInterval(() => {
-      this.setState({flexDirectionIsRow: !this.state.flexDirectionIsRow})
-    }, 5000);
-  }
   render() {
-    let flexDirection = this.state.flexDirectionIsRow ? 'row' : 'column';
     return (
-      <View style={[styles.container, {flexDirection: flexDirection}]}>
+      <View>
         <Pano source={asset('starry-sky.jpg')}></Pano>
-          <Row color='red'/>
-          <Row color='blue'/>
-          <Row color='green'/>
+        <Box
+          dimWidth={0.5}
+          dimHeight={0.5}
+          dimDepth={0.5}
+          wireframe={true}
+          style={{
+            color: '#d22',
+            transform: [
+              {translate: [0, 0, -3]},
+              {translateY: 1},
+              {translateX: -0.5},
+              {rotateY: 45},
+              {rotateZ: 45}
+            ]
+          }}
+        />
       </View>
     )
   }
 };
 
-const styles = StyleSheet.create({
-  text: {
-    fontSize: 0.2,
-    textAlign: 'center'
-  },
-  row: {
-    width: 0.5,
-    height: 0.3,
-    margin: 0.1
-  },
-  container: {
-    flex: 1,
-    width: 2,
-    alignItems: 'center',
-    transform: [{translate: [-1, 0, -3]}]
-  }
-})
 
 AppRegistry.registerComponent('Basics', () => Basics);
