@@ -21,6 +21,8 @@ Completed Projects created while recording the react-vr course.
 
 npm install -g react-vr-cli
 
+npm install express
+
 react-vr init MyApp
 
 cd MyApp

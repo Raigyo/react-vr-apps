@@ -6,6 +6,10 @@ Launch project (in Basics folder): `npm start`
 
 Open browser at [http://localhost:8081/vr/](http://localhost:8081/vr/)
 
+All the steps of this lesson are in '[sections](https://github.com/Raigyo/react-vr-apps/tree/master/Basics/sections)' folder.
+
+Just replace the **Basics/index.vr.js** to test the feature.
+
 ## Basics
 
 Let’s also review the essential concepts we just learned:
