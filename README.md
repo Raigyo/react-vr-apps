@@ -6,7 +6,7 @@
 
 * * *
 
-![](_img/intro.png)
+![react vr](_img/intro.png)
 
 # react-vr-guides
 
@@ -37,3 +37,5 @@ npm start
 Find the original course here: https://www.udemy.com/react-vr/
 
 Note: React VR is React 360 now - ([React 360 replaces React VR for streamlined development focus](https://engineering.fb.com/virtual-reality/react-360-replaces-react-vr-for-streamlined-development-focus/))
+
+![react 360](_img/intro2.png)
