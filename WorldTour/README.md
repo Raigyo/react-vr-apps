@@ -16,12 +16,6 @@ In this section, you went used many of the previous components featured in Secti
 
 - The Pano component to represent different Virtual Reality worlds and environments.
 
-Perhaps you’d like to extend this project even further! Here’s some challenge ideas:
-
-- Add a couple more items to the places array to allow the user to transport to different environments.
-
-- Create a custom version of World Tour that focuses on your favorite place - Museum Tour, City Tour, etc.
-
 ## Ressources
 
 360° images : [15Dkatz/react-vr-panos](https://github.com/15Dkatz/react-vr-panos/tree/master/images)
