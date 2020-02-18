@@ -2,7 +2,7 @@
 
 *February 2020*
 
-> 🔨 Several applications using the Facebook React VR library. You could find the Udemy lesson followed [here](https://www.udemy.com/course/react-vr/)
+> 🔨 Several applications using the Facebook React VR library. You could find the Udemy lesson followed [here](https://www.udemy.com/course/react-vr/).
 
 * * *
 
@@ -30,6 +30,15 @@ react-vr init MyApp
 cd MyApp
 
 npm start
+
+~~~~
+
+To activate hot reload just add this in vr/client.js
+
+~~~~
+
+// Add custom options here
+enableHotReload: true,
 
 ~~~~
 

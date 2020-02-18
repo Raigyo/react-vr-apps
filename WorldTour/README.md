@@ -1,4 +1,6 @@
-#Basics
+# World Tour
+
+![capture](../_img/worldtour.png)
 
 ## How to launch
 
@@ -6,7 +8,7 @@ Launch project (in WorldTour folder): `npm start`
 
 Open browser at [http://localhost:8081/vr/](http://localhost:8081/vr/)
 
-## WorldTour
+## WorldTour - Concepts
 
 In this section, you went used many of the previous components featured in Section One. Here’s just some of the highlights:
 

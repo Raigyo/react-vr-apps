@@ -1,4 +1,6 @@
-#Basics
+# Basics
+
+![capture](../_img/basics.png)
 
 ## How to launch
 
@@ -10,7 +12,7 @@ All the steps of this lesson are in '[sections](https://github.com/Raigyo/react-
 
 Just replace the **Basics/index.vr.js** to test the feature.
 
-## Basics
+## Basics - Concepts
 
 Let’s also review the essential concepts we just learned:
 
