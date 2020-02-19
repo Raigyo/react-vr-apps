@@ -4,6 +4,8 @@ import { Box, Sphere, Cylinder } from 'react-vr';
 //Array with shapes
 const shapes = [Box, Sphere, Cylinder];
 
+export { shapes };
+
 export default class Shape extends Component {
   render() {
     //Number received from props in gameShapes.map
@@ -12,6 +14,7 @@ export default class Shape extends Component {
 
     return (
         <Component
+          wireframe={true}
           style={{
             color: colors[this.props.colorNum],
             transform: this.props.transform

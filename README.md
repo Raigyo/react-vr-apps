@@ -1,4 +1,4 @@
-# React 360 / React VR - React VR - Creating Virtual Reality Apps
+# React 360 / React VR - Creating Virtual Reality Apps
 
 *February 2020*
 
