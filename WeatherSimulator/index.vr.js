@@ -15,7 +15,7 @@ export default class WeatherSimulator extends React.Component {
         <Text
           style={{
             backgroundColor: '#777879',
-            fontSize: 0.8,
+            fontSize: 0.5,
             fontWeight: '400',
             layoutOrigin: [0.5, 0.5],
             paddingLeft: 0.2,
@@ -24,7 +24,8 @@ export default class WeatherSimulator extends React.Component {
             textAlignVertical: 'center',
             transform: [{translate: [0, 0, -3]}],
           }}>
-          hello
+          Creating Virtual Reality Apps
+
         </Text>
       </View>
     );
