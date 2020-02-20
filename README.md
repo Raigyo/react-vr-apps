@@ -15,7 +15,7 @@ Completed Projects created while recording the react-vr course.
 - [Basics](https://github.com/Raigyo/react-vr-apps/tree/master/Basics)
 - [WorldTour](https://github.com/Raigyo/react-vr-apps/tree/master/WorldTour)
 - [ShapeGame](https://github.com/Raigyo/react-vr-apps/tree/master/ShapeGame)
-- WeatherSimulator (WIP)
+- [WeatherSimulator](https://github.com/Raigyo/react-vr-apps/tree/master/WeatherSimulator)
 
 ## Create React VR Apps
 

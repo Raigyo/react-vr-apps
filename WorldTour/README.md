@@ -2,6 +2,10 @@
 
 ![capture](../_img/worldtour.png)
 
+## About
+
+Select some panoramic views using the menu and the buttons.
+
 ## How to launch
 
 Launch project (in WorldTour folder): `npm start`

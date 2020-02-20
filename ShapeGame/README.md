@@ -2,6 +2,12 @@
 
 ![capture](../_img/shapegame.png)
 
+## About
+
+Game in which the player has to select the odd shape to earn points.
+
+The score is saved on local storage.
+
 ## How to launch
 
 Launch project (in ShapeGame folder): `npm start`

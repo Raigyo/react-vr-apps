@@ -2,6 +2,10 @@
 
 ![capture](../_img/basics.png)
 
+## About
+
+React Vr basic concepts
+
 ## How to launch
 
 Launch project (in Basics folder): `npm start`
