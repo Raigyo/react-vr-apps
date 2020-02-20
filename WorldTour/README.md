@@ -23,3 +23,6 @@ In this section, you went used many of the previous components featured in Secti
 ## Ressources
 
 360° images : [15Dkatz/react-vr-panos](https://github.com/15Dkatz/react-vr-panos/tree/master/images)
+
+
+[Back to main](https://github.com/Raigyo/react-vr-apps)

@@ -23,3 +23,6 @@ Let’s overview the main components of this application:
 - By using the .map function, we can create lists of objects dynamically with an array.
 
 - The AsyncStorage component allows for a local history of string key and value pairs.
+
+
+[Back to main](https://github.com/Raigyo/react-vr-apps)
